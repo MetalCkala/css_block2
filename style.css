@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  color: rgb(0, 0, 0);
+  background: linear-gradient(
+    270deg,
+    rgba(22, 224, 32, 0.527),
+    rgba(255, 255, 255, 0.808)
+  );
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 300px;
+}
+
+.png {
+  flex: 0 0 70px;
+  width: 70px;
+  height: 70px;
+  z-index: 1;
+}
+
+.a {
+  position: relative;
+  left: -45px;
+  border: solid black 1px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.b {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  left: -45px;
+  border: solid black 1px;
+  border-left: 0px;
+  flex: 1;
+  background: linear-gradient(
+    217deg,
+    rgba(190, 70, 206, 0.8),
+    rgba(22, 224, 32, 0.527) 70.71%
+  );
+}

@@ -23,21 +23,26 @@
   width: 70px;
   height: 70px;
   z-index: 1;
+  transition: all 1s;
 }
 
 .a {
   position: relative;
   left: -45px;
-  border: solid black 1px;
+  border: solid 1px;
   border-left: 0px;
   border-right: 0px;
+}
+
+.png:hover {
+  transform: translate(70em);
 }
 
 .b {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   position: relative;
   left: -45px;
-  border: solid black 1px;
+  border: solid 1px;
   border-left: 0px;
   flex: 1;
   background: linear-gradient(
